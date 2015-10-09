@@ -14,6 +14,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var bodyTextView: UITextView!
     
+    var viewModel: ArticleViewViewModel {
+        didSet {
+            titleLabel.text = viewModel.title
+            bodyTextView.text = viewModel.body
+            dateLabel.text = viewModel.date
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
