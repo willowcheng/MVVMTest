@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7776B7761BCEA43000D354D1 /* DynamicString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7776B7751BCEA43000D354D1 /* DynamicString.swift */; settings = {ASSET_TAGS = (); }; };
+		7776B7781BCEA9FD00D354D1 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7776B7771BCEA9FD00D354D1 /* Dynamic.swift */; settings = {ASSET_TAGS = (); }; };
 		77E7338C1BC84B420064CA3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E7338B1BC84B420064CA3B /* AppDelegate.swift */; };
 		77E7338E1BC84B420064CA3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E7338D1BC84B420064CA3B /* ViewController.swift */; };
 		77E733911BC84B420064CA3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E7338F1BC84B420064CA3B /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		7776B7751BCEA43000D354D1 /* DynamicString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicString.swift; sourceTree = "<group>"; };
+		7776B7771BCEA9FD00D354D1 /* Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 		77E733881BC84B420064CA3B /* MVVMTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E7338B1BC84B420064CA3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77E7338D1BC84B420064CA3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				77E7339F1BC84FD10064CA3B /* ArticleViewViewModel.swift */,
 				77E733A11BC851C70064CA3B /* ArticleViewViewModelFromArticle.swift */,
 				7776B7751BCEA43000D354D1 /* DynamicString.swift */,
+				7776B7771BCEA9FD00D354D1 /* Dynamic.swift */,
 			);
 			path = MVVMTest;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				77E733A21BC851C70064CA3B /* ArticleViewViewModelFromArticle.swift in Sources */,
 				77E733A01BC84FD10064CA3B /* ArticleViewViewModel.swift in Sources */,
 				7776B7761BCEA43000D354D1 /* DynamicString.swift in Sources */,
+				7776B7781BCEA9FD00D354D1 /* Dynamic.swift in Sources */,
 				77E7338E1BC84B420064CA3B /* ViewController.swift in Sources */,
 				77E7338C1BC84B420064CA3B /* AppDelegate.swift in Sources */,
 				77E7339E1BC84D090064CA3B /* Article.swift in Sources */,
