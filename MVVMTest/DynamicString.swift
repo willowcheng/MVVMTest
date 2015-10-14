@@ -10,10 +10,26 @@ import Foundation
 
 class DynamicString {
     
-    var value: String
+    typealias Listener = String -> Void
+    var listener: Listener?
+    
+    func bind(listener: Listener?) {
+        self.listener = listener
+    }
+    
+    var value: String {
+        didSet {
+            listener?(value)
+        }
+    }
     
     init(_ v: String) {
         value = v
+    }
+    
+    func bindAndFire(listener: Listener?) {
+        self.listener = listener
+        listener?(value)
     }
     
 }
