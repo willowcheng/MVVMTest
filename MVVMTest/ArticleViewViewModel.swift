@@ -7,11 +7,13 @@
 //
 
 import Foundation
+import UIKit
 
 protocol ArticleViewViewModel {
     
     var title: String { get }
     var body: String { get }
     var date: String { get }
+    var thumbnail: UIImage? { get }
     
 }

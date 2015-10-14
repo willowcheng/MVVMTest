@@ -10,15 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var dateLabel: UILabel!
-    @IBOutlet weak var bodyTextView: UITextView!
+    var bodyTextView: UITextView
+    var titleLabel: UILabel
+    var dateLabel: UILabel
+    var thumbnailImageView: UIImageView
     
     var viewModel: ArticleViewViewModel {
         didSet {
             titleLabel.text = viewModel.title
             bodyTextView.text = viewModel.body
             dateLabel.text = viewModel.date
+            thumbnailImageView.image = viewModel.thumbnail
         }
     }
     

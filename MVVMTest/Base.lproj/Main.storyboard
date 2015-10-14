@@ -20,14 +20,14 @@
                                 <rect key="frame" x="277" y="94" width="46" height="29"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gg9-St-LLB">
                                 <rect key="frame" x="282" y="131" width="36" height="20.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XKA-Vc-P0G">
@@ -53,11 +53,6 @@
                             <constraint firstItem="XKA-Vc-P0G" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="yMB-oQ-piR"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="bodyTextView" destination="XKA-Vc-P0G" id="n3f-zM-Icd"/>
-                        <outlet property="dateLabel" destination="gg9-St-LLB" id="vRl-sy-rhK"/>
-                        <outlet property="titleLabel" destination="w2t-PS-PrV" id="Gaz-1v-95x"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
